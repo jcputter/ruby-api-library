@@ -26,7 +26,7 @@ module KayakoClient
         property :full_name,      :string, :readonly => true
         property :email,          :string, :required => [ :put, :post ]
         property :designation,    :string
-        property :signature,      :string
+        property :staffsignature, :string
         property :greeting,       :string
         property :mobile_number,  :string
         property :is_enabled,     :boolean
